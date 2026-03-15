@@ -1,6 +1,6 @@
 import React from 'react'
 import './Contact.css'
-import Logo from '../assetsLogo.png'
+import Logo from '../assets/Logo.png'
 
 const Contact = () => {
     return (
