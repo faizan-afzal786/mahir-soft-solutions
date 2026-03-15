@@ -1,0 +1,55 @@
+.search-bar {
+  margin: 20px 25px;
+}
+
+.search-bar input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.courses-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 20px;
+  justify-content: flex-start;
+  margin-bottom: 100px;
+}
+
+.card {
+  width: 18rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-body h5 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.card-body p {
+  color: #555;
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .courses-container {
+    justify-content: center;
+  }
+
+  .search-bar input {
+    width: 90%;
+  }
+}

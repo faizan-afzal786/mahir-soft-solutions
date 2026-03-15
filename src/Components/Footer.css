@@ -1,0 +1,81 @@
+/* ===== FOOTER CONTAINER ===== */
+.footer-container {
+  background: #0a0a5e;
+  color: white;
+  padding: 40px 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* ===== LOGO + BRAND ===== */
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo img {
+  height: 40px;
+}
+
+.footer-logo .brand-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ff7a00;
+}
+
+/* ===== FOOTER LINKS ===== */
+.footer-links {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ff7a00;
+}
+
+/* ===== SOCIAL MEDIA ===== */
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-social a {
+  color: white;
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #ff7a00;
+}
+
+/* ===== COPYRIGHT ===== */
+.footer-bottom {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
