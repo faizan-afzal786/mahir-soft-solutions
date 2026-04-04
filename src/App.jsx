@@ -10,9 +10,11 @@ import Courses from "./Components/Courses"
 import Contact from "./Components/Contact"
 import Services from "./Components/Services"
 import Projects from "./Components/Projects"
+import WeatherApp from "./Components/WeatherApp"
 import AOS from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
+import WEATHER_APP from "../../../ClaudeWeatherApp/weather-app/src/WeatherApp"
 
 const App = () => {
 
@@ -30,6 +32,7 @@ const App = () => {
           <Route path="/services" element={<Services />}></Route>
           <Route path="/projects" element={<Projects />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/projects/weather-app" element={<WeatherApp />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
